@@ -1,0 +1,57 @@
+.todo_list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 10px;
+    margin-top: 24px;
+    border: 1px solid grey;
+    padding: 10px;
+    list-style: none;
+}
+.todo_list_buttons Button{
+  margin-left: 15px;
+}
+.pagination{
+    display: flex;
+    align-items: center;
+    bottom: 0;
+    position: fixed;
+    justify-content: center;
+    text-align: center;
+    background-color: #000;
+    width: 100vw;
+    height: 45px;
+}
+.pagination div{
+  margin-right: 10px;
+  border-radius: 50%;
+  background-color: #fff;
+  color: #111;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+.pagination div h4{
+  position: relative;
+  top: 4px;
+  
+}
+.todo_list_container{
+  width: 500px;
+  align-items: center;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+.active{
+  background-color: #111;
+  color: #fff;
+}
